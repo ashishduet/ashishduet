@@ -1,0 +1,1 @@
+import pandas as pdimport pandapower as ppnet = pp.create_empty_network()df = pd.read_excel(r"C:\Users\Administrator\Desktop\Data sheet.xlsx", sheet_name="Bus", index_col=0)print(df)
